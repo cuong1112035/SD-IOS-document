@@ -1,6 +1,6 @@
 
 ## SDUITableView, SDCollectionView
-Lớp dùng chung cung cấp các tiện ích như: ẩn/hiện empty data view, pull to refresh, prefetching data
+Lớp dùng chung cung cấp các tiện ích như: ẩn/hiện empty data view, pull to refresh, prefetching data 2
 
 **Ẩn/hiện empty data view**
  1. Functions và properties liên quan:
@@ -87,5 +87,5 @@ Lớp dùng chung cung cấp các tiện ích như: ẩn/hiện empty data view
 	```
 	như vậy, hàm `callAPIThenReloadUIWithNewDataIfNeeded(:)` có thể sẽ được gọi đến 2 lần trong `viewDidLoad()` để đảm bảo user có đủ data để scroll
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MjkwMDg0NV19
+eyJoaXN0b3J5IjpbMTMwMTI2MDYwOSwtNzUyOTAwODQ1XX0=
 -->
