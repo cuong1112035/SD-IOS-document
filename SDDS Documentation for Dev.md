@@ -50,11 +50,11 @@ extension  SDDSBannerImage169DataBindable {
 }
 ```
 
- - notiImageHandler 
+ - notiImageHandler là logic mà Dev-User cần implement vì 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTA5ODkxMywtMzY5OTY4MjQ5LDEyNz
-Q1MzI3ODgsLTc1MDg4MjAyOCwxMzI2MDM0Mjc2LC0xMDI5MDQz
-NTU2LC02ODg5MzkxNTEsMTkxNzMyNjg3OSwtMTQ0NDE5NjIxNC
-wtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNzg0MzMwNTAyLC0zNjk5NjgyNDksMTI3ND
+UzMjc4OCwtNzUwODgyMDI4LDEzMjYwMzQyNzYsLTEwMjkwNDM1
+NTYsLTY4ODkzOTE1MSwxOTE3MzI2ODc5LC0xNDQ0MTk2MjE0LC
+0yMDg4NzQ2NjEyXX0=
 -->
