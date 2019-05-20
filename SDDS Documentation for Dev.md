@@ -21,9 +21,9 @@ Chỉ ra class owner trong file .xib: [link](https://github.com/cuong1112035/SD-
 Liên kết content file với owner: [link](https://github.com/cuong1112035/SD-IOS-document/blob/master/assets/Screen%20Shot%202019-05-20%20at%2015.47.44.png)
 
 **Bước 5**:
-Liên lết `notiImageView` trong **B**
+Liên lết `notiImageView` trong **Bước 1** với file owner: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwMjE1OTk2LC03NTA4ODIwMjgsMTMyNj
-AzNDI3NiwtMTAyOTA0MzU1NiwtNjg4OTM5MTUxLDE5MTczMjY4
-NzksLTE0NDQxOTYyMTQsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTI3NDUzMjc4OCwtNzUwODgyMDI4LDEzMj
+YwMzQyNzYsLTEwMjkwNDM1NTYsLTY4ODkzOTE1MSwxOTE3MzI2
+ODc5LC0xNDQ0MTk2MjE0LC0yMDg4NzQ2NjEyXX0=
 -->
