@@ -1,4 +1,4 @@
-## SDDS Documentation
+## SDDS Documentation 
 
 **UI sẽ xây dựng**: [link](https://github.com/cuong1112035/SD-IOS-document/blob/master/assets/Screen%20Shot%202019-05-20%20at%2015.20.59.png)
 
@@ -62,9 +62,9 @@ public class SDDSBannerImage169: SDDSComponent, SDDSBannerImage169DataBindable {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDU4NjM2Myw4MDk2MjQ0MjgsMTQyNj
-UxOTkxNywxMTIxMDQwNzUwLC0zNjk5NjgyNDksMTI3NDUzMjc4
-OCwtNzUwODgyMDI4LDEzMjYwMzQyNzYsLTEwMjkwNDM1NTYsLT
-Y4ODkzOTE1MSwxOTE3MzI2ODc5LC0xNDQ0MTk2MjE0LC0yMDg4
-NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNzgxNjE0NDQ1LDgwOTYyNDQyOCwxNDI2NT
+E5OTE3LDExMjEwNDA3NTAsLTM2OTk2ODI0OSwxMjc0NTMyNzg4
+LC03NTA4ODIwMjgsMTMyNjAzNDI3NiwtMTAyOTA0MzU1NiwtNj
+g4OTM5MTUxLDE5MTczMjY4NzksLTE0NDQxOTYyMTQsLTIwODg3
+NDY2MTJdfQ==
 -->
