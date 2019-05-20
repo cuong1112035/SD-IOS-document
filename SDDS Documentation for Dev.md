@@ -53,9 +53,14 @@ extension  SDDSBannerImage169DataBindable {
  - `notiImageHandler` là logic mà người sử dụng class `SDDSBannerImage169` cần implement vì `UIImage` được cần hiển thị có thể đến từ rất nhiều resource (cache, remote server, local...)
  - `var notiImageView: UIImageView? { get set }` là cái `UIImage` được liên kết vào owner ở **Bước 5**
  - chúng ta cần implement ```func bind(with data: SDDSBannerImage169Data) ```. Đây là function chứa logic để thể hiện cái `UIImage` của user trên UI của chúng ta
+
+**Bước 7**: 
+Sử dụng `SDDSBannerImage169DataBindable` cho class `SDDSBannerImage169` như sau
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5NjI0NDI4LDE0MjY1MTk5MTcsMTEyMT
-A0MDc1MCwtMzY5OTY4MjQ5LDEyNzQ1MzI3ODgsLTc1MDg4MjAy
-OCwxMzI2MDM0Mjc2LC0xMDI5MDQzNTU2LC02ODg5MzkxNTEsMT
-kxNzMyNjg3OSwtMTQ0NDE5NjIxNCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTEyODIzODA1MSw4MDk2MjQ0MjgsMTQyNj
+UxOTkxNywxMTIxMDQwNzUwLC0zNjk5NjgyNDksMTI3NDUzMjc4
+OCwtNzUwODgyMDI4LDEzMjYwMzQyNzYsLTEwMjkwNDM1NTYsLT
+Y4ODkzOTE1MSwxOTE3MzI2ODc5LC0xNDQ0MTk2MjE0LC0yMDg4
+NzQ2NjEyXX0=
 -->
