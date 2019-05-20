@@ -35,7 +35,7 @@ public protocol SDDSBannerImage169Bindable {
 }
 
 protocol SDDSBannerImage169DataBindable: SDDSBannerImage169Bindable where Self: UIView {
- var notiImageView: UIImageView? { get set }
+	var notiImageView: UIImageView? { get set }
 }
 
 extension  SDDSBannerImage169DataBindable {
@@ -50,11 +50,10 @@ extension  SDDSBannerImage169DataBindable {
 }
 ```
 
- - notiImageHandler là logic mà Dev-User cần implement vì 
-
+ - `notiImageHandler` là logic mà người sử dụng class `SDDSBannerImage169` cần implement vì cái UI
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0MzMwNTAyLC0zNjk5NjgyNDksMTI3ND
-UzMjc4OCwtNzUwODgyMDI4LDEzMjYwMzQyNzYsLTEwMjkwNDM1
-NTYsLTY4ODkzOTE1MSwxOTE3MzI2ODc5LC0xNDQ0MTk2MjE0LC
-0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTQwNjY1NDA4NCwtMzY5OTY4MjQ5LDEyNz
+Q1MzI3ODgsLTc1MDg4MjAyOCwxMzI2MDM0Mjc2LC0xMDI5MDQz
+NTU2LC02ODg5MzkxNTEsMTkxNzMyNjg3OSwtMTQ0NDE5NjIxNC
+wtMjA4ODc0NjYxMl19
 -->
