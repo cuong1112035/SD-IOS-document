@@ -26,12 +26,39 @@ Liên lết `notiImageView` trong **Bước 1** với file owner: [link](https:/
 **Bước 6**: 
 Tạo file `SDDSBannerImage169DataBindable.swift` có nội dung như sau:
 ```swift
+public protocol SDDSBannerImage169Data {
+	var notiImageHandler: (() -> UIImage?)? { get }
+}
 
+public protocol SDDSBannerImage169Bindable {
+	func bind(with data: SDDSBannerImage169Data)
+}
+
+protocol SDDSBannerImage169DataBindable: SDDSBannerImage169Bindable where Self: UIView {
+ var notiImageView: UIImageView? { get set }
+}
+
+extension  SDDSBannerImage169DataBindable {
+
+public func bind(with data: SDDSBannerImage169Data) {
+
+DispatchQueue.global(qos: .userInteractive).async { [weak self] in
+
+guard let image = data.notiImageHandler?() else { return }
+
+DispatchQueue.main.async {
+
+self?.notiImageView?.image = image
+
+}
+}
+}
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTk2ODI0OSwxMjc0NTMyNzg4LC03NT
-A4ODIwMjgsMTMyNjAzNDI3NiwtMTAyOTA0MzU1NiwtNjg4OTM5
-MTUxLDE5MTczMjY4NzksLTE0NDQxOTYyMTQsLTIwODg3NDY2MT
-JdfQ==
+eyJoaXN0b3J5IjpbLTE1MDI4MTMxODksLTM2OTk2ODI0OSwxMj
+c0NTMyNzg4LC03NTA4ODIwMjgsMTMyNjAzNDI3NiwtMTAyOTA0
+MzU1NiwtNjg4OTM5MTUxLDE5MTczMjY4NzksLTE0NDQxOTYyMT
+QsLTIwODg3NDY2MTJdfQ==
 -->
