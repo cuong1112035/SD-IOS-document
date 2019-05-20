@@ -50,10 +50,10 @@ extension  SDDSBannerImage169DataBindable {
 }
 ```
 
- - `notiImageHandler` là logic mà người sử dụng class `SDDSBannerImage169` cần implement vì cái UI
+ - `notiImageHandler` là logic mà người sử dụng class `SDDSBannerImage169` cần implement vì UIImage được cần hiển thị có thể đến từ rất nhiều resource (cache, remote server, local...)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNjY1NDA4NCwtMzY5OTY4MjQ5LDEyNz
-Q1MzI3ODgsLTc1MDg4MjAyOCwxMzI2MDM0Mjc2LC0xMDI5MDQz
-NTU2LC02ODg5MzkxNTEsMTkxNzMyNjg3OSwtMTQ0NDE5NjIxNC
-wtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE1ODYzNzkzOTUsLTM2OTk2ODI0OSwxMj
+c0NTMyNzg4LC03NTA4ODIwMjgsMTMyNjAzNDI3NiwtMTAyOTA0
+MzU1NiwtNjg4OTM5MTUxLDE5MTczMjY4NzksLTE0NDQxOTYyMT
+QsLTIwODg3NDY2MTJdfQ==
 -->
