@@ -20,7 +20,8 @@ override func viewDidLoad() {
 	notiImage.bind(with: NotiImageData())
 }
 ```
+**Lưu ý:** `sleep(3)` dùng để giả sử như UIImage được download từ remote server
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI5ODc3NjcsLTcyMjUwNTY2MywtNDE0Mj
-cxNzEwLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNDQ4NTY0MTA1LC03MjI1MDU2NjMsLTQxND
+I3MTcxMCwtMjA4ODc0NjYxMl19
 -->
