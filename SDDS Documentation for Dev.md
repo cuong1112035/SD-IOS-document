@@ -41,24 +41,19 @@ protocol SDDSBannerImage169DataBindable: SDDSBannerImage169Bindable where Self: 
 extension  SDDSBannerImage169DataBindable {
 
 public func bind(with data: SDDSBannerImage169Data) {
-
-DispatchQueue.global(qos: .userInteractive).async { [weak self] in
-
-guard let image = data.notiImageHandler?() else { return }
-
-DispatchQueue.main.async {
-
-self?.notiImageView?.image = image
-
-}
-}
-}
+	DispatchQueue.global(qos: .userInteractive).async { [weak self] in
+		guard let image = data.notiImageHandler?() else { return }
+		DispatchQueue.main.async {
+			self?.notiImageView?.image = image
+		}
+		}
+	}
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDI4MTMxODksLTM2OTk2ODI0OSwxMj
-c0NTMyNzg4LC03NTA4ODIwMjgsMTMyNjAzNDI3NiwtMTAyOTA0
-MzU1NiwtNjg4OTM5MTUxLDE5MTczMjY4NzksLTE0NDQxOTYyMT
-QsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTE2MDc4NjI5NywtMzY5OTY4MjQ5LDEyNz
+Q1MzI3ODgsLTc1MDg4MjAyOCwxMzI2MDM0Mjc2LC0xMDI5MDQz
+NTU2LC02ODg5MzkxNTEsMTkxNzMyNjg3OSwtMTQ0NDE5NjIxNC
+wtMjA4ODc0NjYxMl19
 -->
