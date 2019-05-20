@@ -15,9 +15,10 @@ public class SDDSBannerImage169: SDDSComponent {
 Tạo 1 file .xib chứa 1 `UIImageView` tỉ lệ 16:9 có nội dung như sau: [link](https://github.com/cuong1112035/SD-IOS-document/blob/master/assets/Screen%20Shot%202019-05-20%20at%2015.20.59.png)
 
 **Bước 3**:
+Chỉ ra class owner trong file .xib: 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUxNDk0MTQ3LC0xMDI5MDQzNTU2LC02OD
-g5MzkxNTEsMTkxNzMyNjg3OSwtMTQ0NDE5NjIxNCwtMjA4ODc0
-NjYxMl19
+eyJoaXN0b3J5IjpbMTMyNjAzNDI3NiwtMTAyOTA0MzU1NiwtNj
+g4OTM5MTUxLDE5MTczMjY4NzksLTE0NDQxOTYyMTQsLTIwODg3
+NDY2MTJdfQ==
 -->
