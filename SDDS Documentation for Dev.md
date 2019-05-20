@@ -8,9 +8,11 @@ public class SDDSBannerImage169: SDDSComponent {
 	@IBOutlet var notiImageView: UIImageView?
 }
 ```
-**Lưu ý:** `SDDSBannerImage169` có 
+**Lưu ý:** `SDDSBannerImage169` có asset control là `public`  và kế thừa từ `SDDSComponent`
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzMwOTkyODYsLTY4ODkzOTE1MSwxOT
+eyJoaXN0b3J5IjpbLTEwMjkwNDM1NTYsLTY4ODkzOTE1MSwxOT
 E3MzI2ODc5LC0xNDQ0MTk2MjE0LC0yMDg4NzQ2NjEyXX0=
 -->
