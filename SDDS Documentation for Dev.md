@@ -3,7 +3,7 @@
 **UI sẽ xây dựng**: [link](https://github.com/cuong1112035/SD-IOS-document/blob/master/assets/Screen%20Shot%202019-05-20%20at%2015.20.59.png)
 
 **Bước 1**: 
-Tạo 1 class có tên `SDDSBannerImage169` vì `SDDS` cần xây dựng chứa 1 `UIImage` có tỉ lệ là 16:9
+Tạo 1 class có tên `SDDSBannerImage169` vì `SDDS` cần xây dựng chứa 1 `UIImage` có tỉ lệ là 16:9.  Class `SDDSBannerImage169` có nội dung như sau
 ```swift
 public class SDDSBannerImage169: SDDSComponent {
 	@IBOutlet var notiImageView: UIImageView?
@@ -54,8 +54,9 @@ extension  SDDSBannerImage169DataBindable {
  - `var notiImageView: UIImageView? { get set }` là cái `UIImage` được liên kết vào owner ở **Bước 5**
  - chúng ta cần implement ```func bind(with data: SDDSBannerImage169Data) ```. Đây là function chứa logic để thể hiện cái UIImage của user trên UI của chúng ta
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjUxOTkxNywxMTIxMDQwNzUwLC0zNj
-k5NjgyNDksMTI3NDUzMjc4OCwtNzUwODgyMDI4LDEzMjYwMzQy
-NzYsLTEwMjkwNDM1NTYsLTY4ODkzOTE1MSwxOTE3MzI2ODc5LC
-0xNDQ0MTk2MjE0LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTYxMTU2NDkxMywxNDI2NTE5OTE3LDExMj
+EwNDA3NTAsLTM2OTk2ODI0OSwxMjc0NTMyNzg4LC03NTA4ODIw
+MjgsMTMyNjAzNDI3NiwtMTAyOTA0MzU1NiwtNjg4OTM5MTUxLD
+E5MTczMjY4NzksLTE0NDQxOTYyMTQsLTIwODg3NDY2MTJdfQ==
+
 -->
