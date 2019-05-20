@@ -39,20 +39,19 @@ protocol SDDSBannerImage169DataBindable: SDDSBannerImage169Bindable where Self: 
 }
 
 extension  SDDSBannerImage169DataBindable {
-
-public func bind(with data: SDDSBannerImage169Data) {
-	DispatchQueue.global(qos: .userInteractive).async { [weak self] in
-		guard let image = data.notiImageHandler?() else { return }
-		DispatchQueue.main.async {
-			self?.notiImageView?.image = image
-		}
+	public func bind(with data: SDDSBannerImage169Data) {
+		DispatchQueue.global(qos: .userInteractive).async { [weak self] in
+			guard let image = data.notiImageHandler?() else { return }
+			DispatchQueue.main.async {
+				self?.notiImageView?.image = image
+			}
 		}
 	}
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDc4NjI5NywtMzY5OTY4MjQ5LDEyNz
+eyJoaXN0b3J5IjpbLTQwMTU5OTc2NSwtMzY5OTY4MjQ5LDEyNz
 Q1MzI3ODgsLTc1MDg4MjAyOCwxMzI2MDM0Mjc2LC0xMDI5MDQz
 NTU2LC02ODg5MzkxNTEsMTkxNzMyNjg3OSwtMTQ0NDE5NjIxNC
 wtMjA4ODc0NjYxMl19
