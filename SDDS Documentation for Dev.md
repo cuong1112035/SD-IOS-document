@@ -55,10 +55,14 @@ extension  SDDSBannerImage169DataBindable {
  - chúng ta cần implement ```func bind(with data: SDDSBannerImage169Data) ```. Đây là function chứa logic để thể hiện cái `UIImage` của user trên UI của chúng ta
 
 **Bước 7**: 
-Sử dụng `SDDSBannerImage169DataBindable` cho class `SDDSBannerImage169` như sau
-
+Sử dụng `SDDSBannerImage169DataBindable` cho class `SDDSBannerImage169` như sau:
+```swift
+public  class SDDSBannerImage169: SDDSComponent, SDDSBannerImage169DataBindable {
+	@IBOutlet var notiImageView: UIImageView?
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyODIzODA1MSw4MDk2MjQ0MjgsMTQyNj
+eyJoaXN0b3J5IjpbMTEyNzQ3OTgwMyw4MDk2MjQ0MjgsMTQyNj
 UxOTkxNywxMTIxMDQwNzUwLC0zNjk5NjgyNDksMTI3NDUzMjc4
 OCwtNzUwODgyMDI4LDEzMjYwMzQyNzYsLTEwMjkwNDM1NTYsLT
 Y4ODkzOTE1MSwxOTE3MzI2ODc5LC0xNDQ0MTk2MjE0LC0yMDg4
