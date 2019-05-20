@@ -8,9 +8,9 @@ public class SDDSBannerImage169: SDDSComponent {
 	@IBOutlet var notiImageView: UIImageView?
 }
 ```
-
+**Lưu ý:** `SDDSBannerImage169` có 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODM1MjcxMSwtNjg4OTM5MTUxLDE5MT
-czMjY4NzksLTE0NDQxOTYyMTQsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTEyNzMwOTkyODYsLTY4ODkzOTE1MSwxOT
+E3MzI2ODc5LC0xNDQ0MTk2MjE0LC0yMDg4NzQ2NjEyXX0=
 -->
