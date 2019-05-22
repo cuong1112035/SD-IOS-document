@@ -1,4 +1,4 @@
-**Guideline SDUI, SDDS**
+##Guideline SDUI, SDDS
 
 - Prefix components: 				SDDSCxxx (**SDDSNavTabNorm**)
 - Prefix components delegate: 	SDDSCxxxDelegate (**SDDSNavTabNormDelegate**)
@@ -15,12 +15,10 @@ KeyCache: Prefix\_Center + "Cache" + Page\_Name + Feature\_Name
 
 **Func Bind() input tối đa 3 params, nếu nhìu hơn thì sử dụng Protocol**
 
-- 
-
-	```
+	```swift
 	Func Cong2So(numer1: Int, number2: Int) { }
 	```
-	```
+	```swift
 	Protocol Number {
 		var number1
 		var number2
